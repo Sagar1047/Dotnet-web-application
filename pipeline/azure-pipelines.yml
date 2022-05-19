@@ -1,14 +1,61 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-trigger:
-- main
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+stages:
+  - stage: Stage1
+    jobs:
+      - job: Job1
+        steps:
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+      - job: Job2
+        steps:
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+  - stage: Stage2
+    jobs:
+      - job: Job1
+        steps:
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+      - job: Job2
+        steps:
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Write your PowerShell commands here.
+                Write-Host "Hello World"
