@@ -1,5 +1,6 @@
 stages:
   - stage: Stage1
+    pool: ubuntu
     jobs:
       - job: Job1
         steps:
@@ -30,6 +31,7 @@ stages:
                 # Write your PowerShell commands here.
                 Write-Host "Hello World"
   - stage: Stage2
+    pool: ubuntu
     jobs:
       - job: Job1
         steps:
