@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 # removed commented lines
 Added one line in stage1 branch 
 // Add services to the container.
+// Testing PR
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
