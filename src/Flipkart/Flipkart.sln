@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32421.90
+# Visual Studio Version 2023
+VisualStudioVersion = 20.1.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipkart", "Flipkart\Flipkart.csproj", "{E29CDB00-577E-4629-AD0F-0770825EAE19}"
 EndProject
 # checking branch policies
 Global
+Added line in stage2 branch for conflict test.
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
