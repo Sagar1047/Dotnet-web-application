@@ -5,7 +5,7 @@ VisualStudioVersion = 20.1.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipkart", "Flipkart\Flipkart.csproj", "{E29CDB00-577E-4629-AD0F-0770825EAE19}"
 EndProject
-# checking branch policies
+# checking branch policies-2
 Global
 Added line in stage2 branch for conflict test.
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
